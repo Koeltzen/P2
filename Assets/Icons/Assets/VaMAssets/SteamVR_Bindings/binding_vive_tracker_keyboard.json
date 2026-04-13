@@ -1,0 +1,20 @@
+{
+  
+  "bindings": {
+    "/actions/default": {
+      "chords": [],
+      "poses": [
+         {
+            "output" : "/actions/default/in/pose",
+            "path" : "/user/keyboard/pose/raw"
+         }
+      ],
+      "haptics": [],
+      "sources": [],
+      "skeleton": []
+    }
+  },
+  "controller_type": "vive_tracker_keyboard",
+  "description": "",
+  "name": "tracker_for_keyboard"
+}

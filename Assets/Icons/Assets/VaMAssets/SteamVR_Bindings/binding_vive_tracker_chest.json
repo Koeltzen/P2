@@ -1,0 +1,20 @@
+{
+  
+  "bindings": {
+    "/actions/default": {
+      "chords": [],
+      "poses": [
+         {
+            "output" : "/actions/default/in/pose",
+            "path" : "/user/chest/pose/raw"
+         }
+      ],
+      "haptics": [],
+      "sources": [],
+      "skeleton": []
+    }
+  },
+  "controller_type": "vive_tracker_chest",
+  "description": "",
+  "name": "tracker_for_chest"
+}
