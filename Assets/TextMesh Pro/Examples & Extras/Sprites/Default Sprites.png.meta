@@ -1,54 +1,26 @@
 fileFormatVersion: 2
-guid: c43edff6e34d86c428a3977db53d33d2
+guid: a0fc465d6cf04254a2938578735e2383
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 1675373462390500913
-    second: weather_0
-  - first:
-      213: -8930032316952095649
-    second: weather_1
-  - first:
-      213: -3665523868638927780
-    second: weather_2
-  - first:
-      213: 7323230548556996838
-    second: weather_3
-  - first:
-      213: 6109284619943629965
-    second: weather_4
-  - first:
-      213: -5507485651781397808
-    second: weather_5
-  - first:
-      213: 6863872920058126157
-    second: weather_6
-  - first:
-      213: -5622851352837964178
-    second: weather_7
-  - first:
-      213: 1149947504544124612
-    second: weather_8
-  - first:
-      213: 7196397244022829857
-    second: weather_9
-  - first:
-      213: -7150120810879035911
-    second: weather_10
-  - first:
-      213: -5099409785687617519
-    second: weather_11
-  - first:
-      213: 7032281948247325380
-    second: weather_12
-  - first:
-      213: 5036592624986332184
-    second: weather_13
+  fileIDToRecycleName:
+    21300000: Default Sprite Asset_0
+    21300002: Default Sprite Asset_1
+    21300004: Default Sprite Asset_2
+    21300006: Default Sprite Asset_3
+    21300008: Default Sprite Asset_4
+    21300010: Default Sprite Asset_5
+    21300012: Default Sprite Asset_6
+    21300014: Default Sprite Asset_7
+    21300016: Default Sprite Asset_8
+    21300018: Default Sprite Asset_11
+    21300020: Default Sprite Asset_12
+    21300022: Default Sprite Asset_13
+    21300024: Default Sprite Asset_14
+    21300026: Default Sprite Asset_15
   externalObjects: {}
-  serializedVersion: 13
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -62,23 +34,20 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
-  maxTextureSize: 2048
+  textureFormat: -1
+  maxTextureSize: 512
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -96,35 +65,38 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 0
   platformSettings:
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -132,376 +104,334 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
+  - serializedVersion: 2
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weather_0
+      name: Default Sprite Asset_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 234
-        width: 201
-        height: 234
+        x: 0
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13ee6eb994f104710800000000000000
-      internalID: 1675373462390500913
+      spriteID: a09de5b73098b2247921a5d8566535e9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_1
+      name: Default Sprite Asset_1
       rect:
         serializedVersion: 2
-        x: 300
-        y: 410
-        width: 36
-        height: 36
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f54df4bcbe6221480800000000000000
-      internalID: -8930032316952095649
+      spriteID: 6f23aaeaabde92743b6e764e7373d24e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_2
+      name: Default Sprite Asset_2
       rect:
         serializedVersion: 2
-        x: 271
-        y: 269
-        width: 213
-        height: 211
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c54af065671712dc0800000000000000
-      internalID: -3665523868638927780
+      spriteID: 7a53700b4f8ee664dbc6d96f6897dcca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_3
+      name: Default Sprite Asset_3
       rect:
         serializedVersion: 2
-        x: 365
-        y: 429
-        width: 14
-        height: 44
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e0670f326751a560800000000000000
-      internalID: 7323230548556996838
+      spriteID: 8aee68303a75a5240a3bfb6295e83c8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_4
+      name: Default Sprite Asset_4
       rect:
         serializedVersion: 2
-        x: 409
-        y: 410
-        width: 36
-        height: 36
+        x: 0
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d845f735ef988c450800000000000000
-      internalID: 6109284619943629965
+      spriteID: 62b55056d79f32242863dd4585a55f00
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_5
+      name: Default Sprite Asset_5
       rect:
         serializedVersion: 2
-        x: 274
-        y: 366
-        width: 45
-        height: 15
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d25208cafa7193b0800000000000000
-      internalID: -5507485651781397808
+      spriteID: 40e7bb1e441a02942a5912eb1bd6beb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_6
+      name: Default Sprite Asset_6
       rect:
         serializedVersion: 2
-        x: 427
-        y: 367
-        width: 46
-        height: 14
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4fdc7fed00614f50800000000000000
-      internalID: 6863872920058126157
+      spriteID: 264af04cf7ba9a6499d6605e8546b922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_7
+      name: Default Sprite Asset_7
       rect:
         serializedVersion: 2
-        x: 39
-        y: 252
-        width: 38
-        height: 54
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6eb4495c7e97f1b0800000000000000
-      internalID: -5622851352837964178
+      spriteID: 5df87e7d9c18ccf4eab4728947f9d93c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_8
+      name: Default Sprite Asset_8
       rect:
         serializedVersion: 2
-        x: 97
-        y: 281
-        width: 37
-        height: 55
+        x: 0
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ce03b6a92f65ff00800000000000000
-      internalID: 1149947504544124612
+      spriteID: 7670512dd461b8940a38efcf24a8081d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_9
+      name: Default Sprite Asset_11
       rect:
         serializedVersion: 2
-        x: 126
-        y: 248
-        width: 38
-        height: 55
+        x: 128
+        y: 128
+        width: 384
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 123b4905a2dbed360800000000000000
-      internalID: 7196397244022829857
+      spriteID: 8d2f6b0f97da03b43a92ce0dc86fc195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_10
+      name: Default Sprite Asset_12
       rect:
         serializedVersion: 2
-        x: 366
-        y: 278
-        width: 13
-        height: 44
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f55d66610ba5cc90800000000000000
-      internalID: -7150120810879035911
+      spriteID: c22fab65c0b72cf43bad23754277ed43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_11
+      name: Default Sprite Asset_13
       rect:
         serializedVersion: 2
-        x: 408
-        y: 303
-        width: 35
-        height: 35
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11050f751d14b39b0800000000000000
-      internalID: -5099409785687617519
+      spriteID: e669cb3dece225c4c80a6260a92e44a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_12
+      name: Default Sprite Asset_14
       rect:
         serializedVersion: 2
-        x: 39
-        y: 29
-        width: 191
-        height: 177
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ca7cad5c2fa79160800000000000000
-      internalID: 7032281948247325380
+      spriteID: fc45a1c7b06b45d43aec543c9d13ac11
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: weather_13
+      name: Default Sprite Asset_15
       rect:
         serializedVersion: 2
-        x: 272
-        y: 26
-        width: 202
-        height: 126
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 81c99a2be4295e540800000000000000
-      internalID: 5036592624986332184
+      spriteID: 81d0fca21c1e3dd46889168e33cda991
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
-    customData: 
     physicsShape: []
     bones: []
-    spriteID: df97b5fb92a0941e2a84dc05ccf4c771
-    internalID: 0
+    spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
-    secondaryTextures: []
-    spriteCustomMetadata:
-      entries: []
-    nameFileIdTable:
-      weather_0: 1675373462390500913
-      weather_1: -8930032316952095649
-      weather_10: -7150120810879035911
-      weather_11: -5099409785687617519
-      weather_12: 7032281948247325380
-      weather_13: 5036592624986332184
-      weather_2: -3665523868638927780
-      weather_3: 7323230548556996838
-      weather_4: 6109284619943629965
-      weather_5: -5507485651781397808
-      weather_6: 6863872920058126157
-      weather_7: -5622851352837964178
-      weather_8: 1149947504544124612
-      weather_9: 7196397244022829857
-  mipmapLimitGroupName: 
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
