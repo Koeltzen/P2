@@ -1,0 +1,20 @@
+{
+  
+  "bindings": {
+    "/actions/default": {
+      "chords": [],
+      "poses": [
+         {
+            "output" : "/actions/default/in/pose",
+            "path" : "/user/shoulder/left/pose/raw"
+         }
+      ],
+      "haptics": [],
+      "sources": [],
+      "skeleton": []
+    }
+  },
+  "controller_type": "vive_tracker_left_shoulder",
+  "description": "",
+  "name": "tracker_for_left_shoulder"
+}
