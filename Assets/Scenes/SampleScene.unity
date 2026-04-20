@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dff75ade7e8a3400b9570a5d52e06c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sensors_GPS
-  gpsText: {fileID: 1909058456}
+  gpsText: {fileID: 0}
 --- !u!4 &357782597
 Transform:
   m_ObjectHideFlags: 0
