@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChoosePants.unity
     guid: 4bf373c36b83441858f60e70f04a777f
+  - enabled: 1
+    path: Assets/Scenes/ChooseShoes.unity
+    guid: 13acecf55529d4eea97324f726681dc0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
