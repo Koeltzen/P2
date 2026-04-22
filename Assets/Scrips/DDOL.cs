@@ -6,10 +6,18 @@ using UnityEngine;
 
 public class DDOL : MonoBehaviour
 {
+    private static DDOL instance;
     void Awake()
-    {
-        GameObject[] objs = GameObject.FindGameObjectsWithTag("Enabled");
+     {
+    
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-        DontDestroyOnLoad(gameObject);
+        instance = this;
+       
+        DontDestroyOnLoad(this.gameObject);
     }
 }
