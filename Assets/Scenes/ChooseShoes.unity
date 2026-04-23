@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 25915305}
   - component: {fileID: 25915307}
   - component: {fileID: 25915306}
-  - component: {fileID: 25915308}
   m_Layer: 5
   m_Name: AnkleBootsPlacement
   m_TagString: Enabled
@@ -197,18 +196,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25915304}
   m_CullTransparentMesh: 1
---- !u!114 &25915308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 25915304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f895fdb3535ee248865d691a7c09f0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DDOL
 --- !u!1 &263331312
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,7 +1524,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1047429829}
   - component: {fileID: 1047429830}
-  - component: {fileID: 1047429831}
   m_Layer: 5
   m_Name: SneakersPlacement
   m_TagString: Enabled
@@ -1574,18 +1560,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1047429828}
   m_CullTransparentMesh: 1
---- !u!114 &1047429831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047429828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f895fdb3535ee248865d691a7c09f0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DDOL
 --- !u!1 &1079997425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,6 +1730,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: ContinueButtonController, Assembly-CSharp
         m_MethodName: ShowContinueButton
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1529447363}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: VisBillede
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2022,7 +2008,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212180778}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2206,6 +2192,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1529447363}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: VisBillede
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1378734364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2346,6 +2344,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1529447363}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: VisBillede
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
@@ -2644,6 +2654,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1529447363}
+        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+        m_MethodName: VisBillede
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1519125381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2693,7 +2715,6 @@ GameObject:
   - component: {fileID: 1526271523}
   - component: {fileID: 1526271525}
   - component: {fileID: 1526271524}
-  - component: {fileID: 1526271526}
   m_Layer: 5
   m_Name: HikingShoesPlacement
   m_TagString: Enabled
@@ -2760,18 +2781,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526271522}
   m_CullTransparentMesh: 1
---- !u!114 &1526271526
+--- !u!1 &1529447362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529447364}
+  - component: {fileID: 1529447363}
+  m_Layer: 0
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1529447363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526271522}
+  m_GameObject: {fileID: 1529447362}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f895fdb3535ee248865d691a7c09f0a, type: 3}
+  m_Script: {fileID: 11500000, guid: 411a4650a7856b84285ff0a29cd81b0b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DDOL
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonManager
+  billeder:
+  - {fileID: 1047429828}
+  - {fileID: 1526271522}
+  - {fileID: 2081668531}
+  - {fileID: 25915304}
+--- !u!4 &1529447364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529447362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 516.9644, y: 971.1583, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1540052659
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,7 +3539,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2081668532}
   - component: {fileID: 2081668534}
-  - component: {fileID: 2081668535}
   m_Layer: 5
   m_Name: RubberBootsPlacement
   m_TagString: Enabled
@@ -3518,18 +3575,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081668531}
   m_CullTransparentMesh: 1
---- !u!114 &2081668535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081668531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f895fdb3535ee248865d691a7c09f0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DDOL
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3539,3 +3584,4 @@ SceneRoots:
   - {fileID: 1016535995}
   - {fileID: 779562304}
   - {fileID: 1566101658}
+  - {fileID: 1529447364}
