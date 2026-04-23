@@ -14,5 +14,47 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ChooseShoes.unity
     guid: 13acecf55529d4eea97324f726681dc0
+  - enabled: 1
+    path: Assets/Scenes/ChooseShirt.unity
+    guid: b2c53ca257869454196a7bafbecaca09
+  - enabled: 1
+    path: Assets/Scenes/ChooseJacket.unity
+    guid: bec371576e82542f7a342b3a8e861742
+  - enabled: 1
+    path: Assets/Scenes/ChooseThickShirt.unity
+    guid: e9b09bb3d2bddb74aba764d8d7302060
+  - enabled: 1
+    path: Assets/Scenes/ChooseSocks.unity
+    guid: c074fea53ab7f2b4fa881d8247926dc6
+  - enabled: 1
+    path: Assets/Scenes/ChooseUnderwear.unity
+    guid: 76f05c8371c5f452f84d0deef8adb38b
+  - enabled: 1
+    path: Assets/Scenes/ChooseUnderwearTops.unity
+    guid: ab1a1ff5f4e611c45894948ba0fa2837
+  - enabled: 1
+    path: Assets/Scenes/sneExtra.unity
+    guid: a9b45bae3f333b241bd233ffedf6def9
+  - enabled: 1
+    path: Assets/Scenes/regnExtra.unity
+    guid: ffc9c1c5c94482d4ca9a46f52b6f020b
+  - enabled: 1
+    path: Assets/Scenes/kuldeExtra.unity
+    guid: 970deb0c6728dd54d984935ef82796be
+  - enabled: 1
+    path: Assets/Scenes/ChooseDay.unity
+    guid: a59894653b6474b189554b53b4e95101
+  - enabled: 1
+    path: Assets/Scenes/ChooseExtra.unity
+    guid: d0a6300f1d64047d8b55cca2010e9078
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: dd3e8d05204e6409d97dda2976b261f1
+  - enabled: 1
+    path: Assets/Scenes/solExtra.unity
+    guid: a418852ff1efb14408f665593367d9aa
+  - enabled: 1
+    path: Assets/Scenes/Tilfreds.unity
+    guid: e90730aa7abc15847a1f64cdb8b00a7f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
