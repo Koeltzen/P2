@@ -1620,7 +1620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149, y: -501}
+  m_AnchoredPosition: {x: -168, y: -501}
   m_SizeDelta: {x: 210.67, y: 197.126}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1079997427
@@ -1643,7 +1643,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: ed0226caf6ba3ee4ea524efd9d195e61, type: 3}
+  m_Texture: {fileID: 2800000, guid: fba377880ac687c499a0e827b4eb5356, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2113,7 +2113,7 @@ GameObject:
   - component: {fileID: 1378734364}
   - component: {fileID: 1378734363}
   m_Layer: 5
-  m_Name: AnkleBootsButton
+  m_Name: SandalButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2806,7 +2806,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136, y: -501}
+  m_AnchoredPosition: {x: 155, y: -501}
   m_SizeDelta: {x: 223.6051, y: 197.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1540052661
@@ -2829,7 +2829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: ed0226caf6ba3ee4ea524efd9d195e61, type: 3}
+  m_Texture: {fileID: 2800000, guid: fba377880ac687c499a0e827b4eb5356, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -3131,7 +3131,7 @@ GameObject:
   - component: {fileID: 1841535962}
   - component: {fileID: 1841535961}
   m_Layer: 5
-  m_Name: AnkleBoots
+  m_Name: Sandal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3177,7 +3177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5744684390198581561, guid: ed0226caf6ba3ee4ea524efd9d195e61, type: 3}
+  m_Sprite: {fileID: -4436848082205906123, guid: fba377880ac687c499a0e827b4eb5356, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
