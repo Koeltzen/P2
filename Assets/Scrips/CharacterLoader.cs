@@ -33,7 +33,7 @@ public class CharacterLoader : MonoBehaviour
     public GameObject shoeSandal;
     public GameObject jacketPuffer;
     public GameObject jacketDenim;
-    public GameObject jacketCahart;
+    public GameObject jacketCahartt;
     public GameObject jacketPuffervest;
 
     
