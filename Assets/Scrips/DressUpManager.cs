@@ -94,6 +94,8 @@ public class DressUpManager : MonoBehaviour
         SelectExtraSnow(clothingData.extraSnowType);
         SelectExtraRain(clothingData.extraRainType);
         SelectExtraCold(clothingData.extraColdType);
+
+        Debug.Log("dress up");
     }
 
     void OnApplicationQuit()

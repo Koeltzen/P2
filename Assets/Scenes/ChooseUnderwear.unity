@@ -1141,6 +1141,26 @@ PrefabInstance:
       propertyPath: scene
       value: ChooseUnderwearTops
       objectReference: {fileID: 0}
+    - target: {fileID: 497561970310054468, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497561970310054468, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497561970310054468, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1642912925}
+    - target: {fileID: 497561970310054468, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 497561970310054468, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: IntroSceneTransition, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2687415025730529876, guid: cef6f43d7dc96b0429b4dfac0627a20e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

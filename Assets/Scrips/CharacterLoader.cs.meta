@@ -11,7 +11,7 @@ MonoImporter:
   - underwearTanktop: {fileID: 8020468056036861010, guid: 0487b94ac7e1daf458935ec455fd9463, type: 3}
   - underwearBra: {fileID: 6770816000091899746, guid: aa6d522ced70e324097c58c4958b27ac, type: 3}
   - sockNormal: {fileID: 5949284892561973629, guid: 3d8754169bb248b42bb1da1621d36c96, type: 3}
-  - sockShort: {fileID: 5949284892561973629, guid: 3d8754169bb248b42bb1da1621d36c96, type: 3}
+  - sockShort: {fileID: 7583021714713560740, guid: 2028846b09759ba4a86c990d446031d5, type: 3}
   - socksLong: {fileID: 5062227906094122177, guid: 418dab0c35c62654c93c8cac2c3e35b4, type: 3}
   - socksTights: {fileID: 2638292808278982829, guid: 6e979fb8ff7dbab4c8468258e4160418, type: 3}
   - pantsJeans: {fileID: 7110941809550310125, guid: a2813c4c57329a0499ea173b05539544, type: 3}

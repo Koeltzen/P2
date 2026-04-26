@@ -45,16 +45,60 @@ public class CharacterLoader : MonoBehaviour
 
     void ApplyClothes()
     {
-        //reset all shoes
+        //reset all 
         underwearBoxer.SetActive(false);
         underwearPanties.SetActive(false);
+        underwearBra.SetActive(false);
+        underwearTop.SetActive(false);
+        underwearTanktop.SetActive(false);
+        sockNormal.SetActive(false);
+        sockShort.SetActive(false);
+        socksLong.SetActive(false);
+        socksTights.SetActive(false);
+        shirtLong.SetActive(false);
+        shirtLongpolo.SetActive(false);
+        shirtPolo.SetActive(false);
+        shirtTshirt.SetActive(false);
+        pantsJeans.SetActive(false);
+        pantsJeans2.SetActive(false);
+        pantsSkirt.SetActive(false);
+        pantsTrack.SetActive(false);
+        pantsTrouser.SetActive(false);
+        shoeHikingboot.SetActive(false);
+        shoeRubberboot.SetActive(false);
+        shoeSandal.SetActive(false);
+        shoeSneaker.SetActive(false);
+        jacketCahartt.SetActive(false);
+        jacketDenim.SetActive(false);
+        jacketPuffer.SetActive(false);
+        jacketPuffervest.SetActive(false);
+        thickshirtAnorak.SetActive(false);
+        thickshirtCardigan.SetActive(false);
+        thickshirtHoodie.SetActive(false);
+        thickshirtJersey.SetActive(false);
 
-    // Apply selected shoes
+    // Apply selected 
         if (clothingData.underwearType== "Boxer")
             underwearBoxer.SetActive(true);
+            
 
-        if (clothingData.underwearType== "Panties")
+        else if (clothingData.underwearType== "Panties")
             underwearPanties.SetActive(true);
+
+        else if (clothingData.underwearTopsType== "TopPlacement")
+            underwearTop.SetActive(true);
+
+        else if (clothingData.underwearTopsType== "TankTopPlacement")
+            underwearTanktop.SetActive(true);
+
+        else if (clothingData.underwearTopsType== "BraPlacement")
+            underwearBra.SetActive(true);
+
+        else if (clothingData.sockType== "SocksPlacement")
+            sockNormal.SetActive(true);
+
+        else if (clothingData.sockType== "SocksPlacement")
+            sockNormal.SetActive(true);
     }
 
 }
