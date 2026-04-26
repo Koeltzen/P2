@@ -33,7 +33,7 @@ MonoImporter:
   - shoeSandal: {fileID: 8490237277961462993, guid: 9c0827cd62765e342b615ddd6c34250d, type: 3}
   - jacketPuffer: {fileID: 268063188537343232, guid: f496a0a79badf234590539296e8f39cb, type: 3}
   - jacketDenim: {fileID: 8144291540185333672, guid: 73d4e87059d1e6542a9c6b486335b923, type: 3}
-  - jacketCahart: {fileID: 2326489770943594402, guid: a19dd0a52d16524439195ca8d1f9d532, type: 3}
+  - jacketCahartt: {fileID: 2326489770943594402, guid: a19dd0a52d16524439195ca8d1f9d532, type: 3}
   - jacketPuffervest: {fileID: 5922615853028960041, guid: 00a586d838f144a47a971231d14ad728, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
