@@ -1,0 +1,103 @@
+[
+{
+    "ClothingType": "Sock",
+    "ClothingDescription": "ShortSock"
+},
+
+{
+    "ClothingType": "Sock",
+    "ClothingScore": "2",
+    "ClothingDescription": "Sock"
+},
+
+{
+    "ClothingType": "Sock",
+    "ClothingScore": "3",
+    "ClothingDescription": "LongSock"
+},
+
+{
+    "ClothingType": "Sock",
+    "ClothingScore": "5",
+    "ClothingDescription": "Tights"
+},
+
+{
+    "ClothingType": "shirt",
+    "ClothingScore": "7",
+    "ClothingDescription": "Tshirt"
+},
+
+{
+    "ClothingType": "shirt",
+    "ClothingScore": "7",
+    "ClothingDescription": "Polo"
+},
+
+{
+    "ClothingType": "shirt",
+    "ClothingScore": "10",
+    "ClothingDescription": "LongSleeve"   
+},
+
+{
+    "ClothingType": "shirt",
+    "ClothingScore": "10",
+    "ClothingDescription": "PoloShirt"   
+},
+
+{
+    "ClothingType": "Pants",
+    "ClothingScore": "7",
+    "ClothingDescription": "Skirt"
+},
+
+{
+    "ClothingType": "Pants",
+    "ClothingScore": "7",
+    "ClothingDescription": "Short"
+},
+
+{
+    "ClothingType": "Pants",
+    "ClothingScore": "12",
+    "ClothingDescription": "Trousers"
+},
+
+{
+    "ClothingType": "Pants",
+    "ClothingScore": "12",
+    "ClothingDescription": "TrackPants"
+},
+
+{
+    "ClothingType": "Pants",
+    "ClothingScore": "12",
+    "ClothingDescription": "Pants"
+},
+
+{
+    "ClothingType": "ThickShirt",
+    "ClothingScore": "20",
+    "ClothingDescription": "Hoodie"
+},
+
+{
+    "ClothingType": "ThickShirt",
+    "ClothingScore": "20",
+    "ClothingDescription": "Anorak"
+},
+
+{
+    "ClothingType": "ThickShirt",
+    "ClothingScore": "15",
+    "ClothingDescription": "Cardigan"
+},
+
+{
+    "ClothingType": "ThickShirt",
+    "ClothingScore": "20",
+    "ClothingDescription": "Jersey"
+}
+    
+]
