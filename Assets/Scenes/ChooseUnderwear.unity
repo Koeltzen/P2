@@ -2192,6 +2192,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77ba1583597dd754fbc4be92b5e9053c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaveManager
+  data:
+    ClothingType: 
+    ClothingScore: 
+    ClothingDescription: 
 --- !u!4 &721721916
 Transform:
   m_ObjectHideFlags: 0
