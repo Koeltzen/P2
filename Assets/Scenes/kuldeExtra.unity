@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '10
+  m_text: '13
 
 '
   m_isRightToLeft: 0
@@ -3203,7 +3203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1675373462390500913, guid: c43edff6e34d86c428a3977db53d33d2, type: 3}
+  m_Sprite: {fileID: -3665523868638927780, guid: c43edff6e34d86c428a3977db53d33d2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
