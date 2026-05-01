@@ -37,7 +37,7 @@ public class SaveManager : MonoBehaviour
         if (File.Exists(savePath))
         {
             string json = File.ReadAllText(savePath);
-            data = JsonUtility.FromJson<GameData>(json);
+            data = JsonUtility.FromJson<ScoreInfo>(json);
         }
         else
         {
