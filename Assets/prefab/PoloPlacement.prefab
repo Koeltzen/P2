@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 881842470171285915}
   - component: {fileID: 9033380096212740763}
   - component: {fileID: 4645441482318155966}
+  - component: {fileID: -8799923417464499933}
   m_Layer: 5
   m_Name: PoloPlacement
   m_TagString: Untagged
@@ -75,3 +76,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-8799923417464499933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496718368149564819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca4c4b0811bff94eaa4491635da2c04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClothingItem
+  category: Polo
+  value: 10
