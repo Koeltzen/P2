@@ -3439,6 +3439,37 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6617844433208239358, guid: 26f5ef5e7641e774fbfa8e8943dce5f9, type: 3}
   m_PrefabInstance: {fileID: 1525434284}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1565328394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565328396}
+  m_Layer: 0
+  m_Name: uiManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565328396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565328394}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 312.87598, y: 393.70795, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1573133919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4690,7 +4721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -4706,7 +4737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4723,7 +4754,7 @@ PrefabInstance:
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1642912928}
+      objectReference: {fileID: 2107749559}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -4742,7 +4773,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: SelectUnderwear
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -4758,7 +4789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: DressUpManager, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
@@ -4771,10 +4802,6 @@ PrefabInstance:
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
-      value: Boxers
       objectReference: {fileID: 0}
     - target: {fileID: 4033322933034244877, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5967,14 +5994,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 160058786}
     m_Modifications:
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2184870625480511413}
@@ -5982,26 +6001,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1327225879}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 1642912928}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: SaveClothingItem
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: DressUpManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 8131379159235807478, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -8723,4 +8722,5 @@ SceneRoots:
   - {fileID: 1642912927}
   - {fileID: 1067620328}
   - {fileID: 2135273215}
+  - {fileID: 1565328396}
   - {fileID: 1638532765}

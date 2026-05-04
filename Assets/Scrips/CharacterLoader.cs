@@ -77,28 +77,5 @@ public class CharacterLoader : MonoBehaviour
         thickshirtHoodie.SetActive(false);
         thickshirtJersey.SetActive(false);
 
-    // Apply selected 
-        if (clothingData.underwearType== "Boxer")
-            underwearBoxer.SetActive(true);
-            
-
-        else if (clothingData.underwearType== "Panties")
-            underwearPanties.SetActive(true);
-
-        else if (clothingData.underwearTopsType== "TopPlacement")
-            underwearTop.SetActive(true);
-
-        else if (clothingData.underwearTopsType== "TankTopPlacement")
-            underwearTanktop.SetActive(true);
-
-        else if (clothingData.underwearTopsType== "BraPlacement")
-            underwearBra.SetActive(true);
-
-        else if (clothingData.sockType== "SocksPlacement")
-            sockNormal.SetActive(true);
-
-        else if (clothingData.sockType== "SocksPlacement")
-            sockNormal.SetActive(true);
     }
-
 }
