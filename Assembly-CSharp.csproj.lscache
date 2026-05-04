@@ -51,9 +51,21 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 
 [sourceFiles]
 Assets/Scrips/
+ ButtonManager.cs
+ CharacterLoader.cs
+ ClothingPanelData.cs
+ ClothingSaveScriptbleObject.cs
  Continue.cs
  DMI_API.cs
- GPS.cs
+ DressUpManager.cs
+ GameManager.cs
+ Item.cs
+ Json/
+  SaveManager.cs
+  SerializableHelper.cs
+ SceneTransition.cs
+ ScoreManager.cs
+ Scores.cs
 Assets/TextMesh Pro/Examples & Extras/Scripts/
  Benchmark01.cs
  Benchmark01_UGUI.cs
@@ -478,7 +490,7 @@ Library/ScriptAssemblies/
  Unity.Properties.SourceGenerator.dll
  Unity.SourceGenerators.dll
  Unity.UIToolkit.SourceGenerator.dll
-../../.vscode/extensions/visualstudiotoolsforunity.vstuc-1.2.1/Analyzers/Microsoft.Unity.Analyzers.dll
+../../.vscode/extensions/visualstudiotoolsforunity.vstuc-1.2.2/Analyzers/Microsoft.Unity.Analyzers.dll
 
 [analyzerConfigFiles]
 Temp/obj/Assembly-CSharp/Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
