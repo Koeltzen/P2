@@ -1,8 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-
-[System.Serializable]
-public class OutfitData
+public class OutfitData: MonoBehaviour
 {
     public Dictionary<string, float> values = new Dictionary<string, float>()
     {
@@ -35,4 +33,15 @@ public class OutfitData
         {"scarf", 10f},
         {"beanie", 12f}
     };
+
+    float playerTotalPoints = 0;
+
+    public void AddPoints(string itemName)
+    {
+        if (values.ContainsKey(itemName))
+        {
+            playerTotalPoints += values[itemName];
+            Debug.Log("Your score:" + playerTotalPoints); 
+        }
+    }
 }
