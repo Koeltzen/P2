@@ -1,8 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
-public class OutfitData: MonoBehaviour
+using System.Drawing;
+public class OutfitData : MonoBehaviour
 {
-    public Dictionary<string, float> values = new Dictionary<string, float>()
+    private Dictionary<string, float> values = new Dictionary<string, float>()
     {
         {"sockNormal", 2f},
         {"sockShort", 2f},
@@ -31,17 +32,40 @@ public class OutfitData: MonoBehaviour
         {"jacketPuffervest", 10f},
         {"mitten", 10f},
         {"scarf", 10f},
-        {"beanie", 12f}
+        {"beanie", 12f},
+        {"boxer", 100f},
+        {"briefs", 20f}
     };
 
-    float playerTotalPoints = 0;
+    private HashSet<string> clickedButton = new HashSet<string>();
+    private string currentChoice = "";
+
+    public float playerTotalPoints = 0f;
 
     public void AddPoints(string itemName)
     {
-        if (values.ContainsKey(itemName))
-        {
-            playerTotalPoints += values[itemName];
-            Debug.Log("Your score:" + playerTotalPoints); 
-        }
+        if (!values.ContainsKey(itemName)) return;
+
+
+        //checks if you already have points
+        if (clickedButton.Contains(itemName)) return;
+        
+
+        currentChoice = itemName;
+        Debug.Log("Chose" + itemName + "(" + values[itemName] +  "point)");
+        
+    }
+    public void ConfirmChoice()
+    {
+        if (string.IsNullOrEmpty(currentChoice)) return;
+
+        float point = values[currentChoice];
+        playerTotalPoints += point;
+
+
+
+
+        Debug.Log("Your score:" + playerTotalPoints); 
+        currentChoice = ""; //reset
     }
 }

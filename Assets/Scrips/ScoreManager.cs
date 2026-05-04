@@ -19,23 +19,23 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void SetItem(string category, float value)
-    {
-        if (data.values.ContainsKey(category))
-            data.values[category] = value;
-        else
-            data.values.Add(category, value);
-    }
+    //public void SetItem(string category, float value)
+    //{
+    //  if (data.values.ContainsKey(category))
+    //        data.values[category] = value;
+    //    else
+    //        data.values.Add(category, value);
+    //}
 
-    public float GetTotalMultiplier()
-    {
-        float total = 1f;
-
-        foreach (float value in data.values.Values)
-        {
-            total *= value;
-        }
-
-        return total;
-    }
+    //public float GetTotalMultiplier()
+    //{
+    //   float total = 1f;
+    //
+    //    foreach (float value in data.values.Values)
+    //    {
+    //        total *= value;
+    //    }
+    //
+    //    return total;
+    //}
 }

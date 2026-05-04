@@ -63,9 +63,9 @@ Assets/Scrips/
  Json/
   SaveManager.cs
   SerializableHelper.cs
+ OutfitData.cs
  SceneTransition.cs
  ScoreManager.cs
- Scores.cs
 Assets/TextMesh Pro/Examples & Extras/Scripts/
  Benchmark01.cs
  Benchmark01_UGUI.cs
