@@ -8,28 +8,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChoosePants.unity
     guid: 4bf373c36b83441858f60e70f04a777f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseShoes.unity
     guid: 13acecf55529d4eea97324f726681dc0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseShirt.unity
     guid: b2c53ca257869454196a7bafbecaca09
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseJacket.unity
     guid: bec371576e82542f7a342b3a8e861742
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseThickShirt.unity
     guid: e9b09bb3d2bddb74aba764d8d7302060
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseSocks.unity
     guid: c074fea53ab7f2b4fa881d8247926dc6
   - enabled: 1
     path: Assets/Scenes/ChooseUnderwear.unity
     guid: 76f05c8371c5f452f84d0deef8adb38b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChooseUnderwearTops.unity
     guid: ab1a1ff5f4e611c45894948ba0fa2837
   - enabled: 1
@@ -56,5 +56,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tilfreds.unity
     guid: e90730aa7abc15847a1f64cdb8b00a7f
+  - enabled: 1
+    path: Assets/Scenes/Ending3.unity
+    guid: 17411b661321040b5a57e2728aa8cfde
+  - enabled: 1
+    path: Assets/Scenes/Ending2.unity
+    guid: 878a8c5e0cf474932970470583bfe57b
+  - enabled: 1
+    path: Assets/Scenes/Ending1.unity
+    guid: 10d57beef3d1845cfa2518a09a85e1fc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
