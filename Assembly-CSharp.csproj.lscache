@@ -51,6 +51,7 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 
 [sourceFiles]
 Assets/Scrips/
+ AndeTalk.cs
  ButtonManager.cs
  CharacterLoader.cs
  ClothingPanelData.cs
