@@ -12,7 +12,7 @@ public class OutfitData : MonoBehaviour
         {"pantsJeans", 12f},
         {"pantsJeans2", 7f},
         {"pantsTrack", 12f},
-        {"pantsSkirt", 12f},
+        {"pantsSkirt", 7f},
         {"pantsTrouser",7f},
         {"shirtPolo", 7f},
         {"shirtLong", 10f},
@@ -33,8 +33,6 @@ public class OutfitData : MonoBehaviour
         {"mitten", 10f},
         {"scarf", 10f},
         {"beanie", 12f},
-        {"boxer", 100f},
-        {"briefs", 20f}
     };
 
     private HashSet<string> clickedButton = new HashSet<string>();

@@ -56,9 +56,9 @@ Assets/Scrips/
  ClothingPanelData.cs
  ClothingSaveScriptbleObject.cs
  Continue.cs
+ Continuebutton.cs
  DMI_API.cs
  DressUpManager.cs
- GameManager.cs
  Item.cs
  Json/
   SaveManager.cs
