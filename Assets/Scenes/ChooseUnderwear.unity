@@ -1890,7 +1890,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4215c7ea902f24fd4844eb98150f4285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndSceneLoader
-  data: {fileID: 1501311700}
 --- !u!4 &653060575
 Transform:
   m_ObjectHideFlags: 0
@@ -4871,11 +4870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadEndScene
+      value: LoadEnding
       objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: EndSceneLoader, Assembly-CSharp
+      value: EndingManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
