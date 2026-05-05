@@ -25,5 +25,6 @@ public class ButtonManager : MonoBehaviour
                 billeder[i].SetActive(true);
             }
         }
+        
     }
 }

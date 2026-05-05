@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enabled
+  - Underwear
+  - Shoes
+  - UnderwearTops
+  - Socks
+  - Shirts
+  - Pants
+  - ThickShirts
+  - Jacket
   layers:
   - Default
   - TransparentFX
