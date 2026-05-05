@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DressUpManager : MonoBehaviour
 {
@@ -96,6 +97,11 @@ public class DressUpManager : MonoBehaviour
         SelectExtraCold(clothingData.extraColdType);
 
         Debug.Log("dress up");
+    }
+
+    public void SaveClothingItem()
+    {
+  
     }
 
     void OnApplicationQuit()
