@@ -33,9 +33,13 @@ public class OutfitData : MonoBehaviour
         {"jacketDenim", 12f},
         {"jacketCahartt", 12f},
         {"jacketPuffervest", 10f},
+        {"jacketRain", 12f},
         {"mitten", 10f},
         {"scarf", 10f},
         {"beanie", 12f},
+        {"none1", 0f},
+        {"none2", 0f},
+        {"none3", 0f},
     };
 
     private HashSet<string> clickedItems = new HashSet<string>();
