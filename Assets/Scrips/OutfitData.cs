@@ -1,8 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
-using System.Drawing;
+
 public class OutfitData : MonoBehaviour
 {
+    [SerializeField]
+    private TempBar tempbar;
+
     private Dictionary<string, float> values = new Dictionary<string, float>()
     {
         {"sockNormal", 2f},
@@ -35,35 +38,48 @@ public class OutfitData : MonoBehaviour
         {"beanie", 12f},
     };
 
-    private HashSet<string> clickedButton = new HashSet<string>();
+    private HashSet<string> clickedItems = new HashSet<string>();
     private string currentChoice = "";
 
     public float playerTotalPoints = 0f;
 
+    // Called when player clicks an item
     public void AddPoints(string itemName)
     {
-        if (!values.ContainsKey(itemName)) return;
+        if (!values.ContainsKey(itemName))
+        {
+            Debug.LogWarning("Item not found: " + itemName);
+            return;
+        }
 
-
-        //checks if you already have points
-        if (clickedButton.Contains(itemName)) return;
-        
+        if (clickedItems.Contains(itemName))
+        {
+            Debug.Log("Already selected: " + itemName);
+            return;
+        }
 
         currentChoice = itemName;
-        Debug.Log("Chose" + itemName + "(" + values[itemName] +  "point)");
-        
+
+        Debug.Log("Chose " + itemName + " (" + values[itemName] + " points)");
     }
+
+    // Called when player confirms selection
     public void ConfirmChoice()
     {
         if (string.IsNullOrEmpty(currentChoice)) return;
 
-        float point = values[currentChoice];
-        playerTotalPoints += point;
+        float points = values[currentChoice];
 
+        playerTotalPoints += points;
 
+        //Adds to temperature
+        tempbar.AddTemp(points);
 
+        //Prevent reuse
+        clickedItems.Add(currentChoice);
 
-        Debug.Log("Your score:" + playerTotalPoints); 
-        currentChoice = ""; //reset
+        Debug.Log("Total score: " + playerTotalPoints);
+
+        currentChoice = "";
     }
 }
