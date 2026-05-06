@@ -5,7 +5,7 @@ public class AndeTalk : MonoBehaviour
 {
     private int currentChild = 0;
 
-    public GameObject parentObject;
+    public GameObject ParentObject;
 
     public int childCount;
     
@@ -24,20 +24,19 @@ public class AndeTalk : MonoBehaviour
 
     IEnumerator waiterTest()
     {
-        parentObject.transform.GetChild(currentChild).gameObject.SetActive(true);
+        ParentObject.transform.GetChild(currentChild).gameObject.SetActive(true);
         yield return new WaitForSeconds(4);
-        parentObject.transform.GetChild(currentChild).gameObject.SetActive(false);
+        ParentObject.transform.GetChild(currentChild).gameObject.SetActive(false);
         currentChild++;
 
-        if (parentObject.transform.GetChild(currentChild))
+        if (ParentObject.transform.GetChild(currentChild))
             StartCoroutine(waiterTest());
+        
     }
 
     void IterateThroughChildren()
     {
-        childCount = parentObject.transform.childCount;
-
-
+        childCount = ParentObject.transform.childCount;
 
 
     }
