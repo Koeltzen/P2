@@ -9,11 +9,11 @@ public class EndSceneLoader : MonoBehaviour
     {
         float points = data.playerTotalPoints;
 
-        if (points < 21f)
+        if (points < 43f)
         {
             SceneManager.LoadScene("Ending1");
         }
-        else if (points >= 21f && points <= 50f)
+        else if (points >= 43f && points <= 77f)
         {
             SceneManager.LoadScene("Ending2");
         }
