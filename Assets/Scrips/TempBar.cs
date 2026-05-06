@@ -9,7 +9,7 @@ public class TempBar : MonoBehaviour
     private RectTransform thermometer;
 
     [SerializeField] 
-    private float width = 200f;
+    private float width = 1000f;
 
     [SerializeField] 
     private float height = 50f;
