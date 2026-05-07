@@ -1626,53 +1626,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 134870857}
   m_CullTransparentMesh: 1
---- !u!1 &136833236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 136833238}
-  - component: {fileID: 136833237}
-  m_Layer: 0
-  m_Name: AndeManager (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &136833237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136833236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 129771184}
-  childCount: 0
-  m_speechBubble: {fileID: 0}
---- !u!4 &136833238
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136833236}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1332562651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136884489
 GameObject:
   m_ObjectHideFlags: 0
@@ -4398,55 +4351,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 647142383947965600, guid: 55446f12583147f4bb5cc76f9242d9d9, type: 3}
   m_PrefabInstance: {fileID: 270478810}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &353435766
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 353435768}
-  - component: {fileID: 353435767}
-  m_Layer: 0
-  m_Name: speechManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &353435767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353435766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac20435c091a4c4c8659b8e2e1cdd33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::speechBubble
-  bubble:
-  - {fileID: 363725025}
-  timer: 0
-  interval: 2
-  boobleActive: 0
---- !u!4 &353435768
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 353435766}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 801.9565, y: 1826.5918, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &354595624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5561,53 +5465,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1074338056556180820, guid: 8c3d8a53799e8174da86a2254782d43b, type: 3}
   m_PrefabInstance: {fileID: 429896653}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &431949674
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 431949676}
-  - component: {fileID: 431949675}
-  m_Layer: 0
-  m_Name: AndeManager (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &431949675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431949674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 1142522986}
-  childCount: 0
-  m_speechBubble: {fileID: 0}
---- !u!4 &431949676
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431949674}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1332562651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &468274678
 GameObject:
   m_ObjectHideFlags: 0
@@ -7038,53 +6895,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &675118397
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 675118399}
-  - component: {fileID: 675118398}
-  m_Layer: 0
-  m_Name: AndeManager (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &675118398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675118397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 11851328}
-  childCount: 0
-  m_speechBubble: {fileID: 0}
---- !u!4 &675118399
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675118397}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1332562651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &685049385
 GameObject:
   m_ObjectHideFlags: 0
@@ -7227,53 +7037,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1497084853410135504, guid: 11bc5492c5a36c340b4df3137fa35a2c, type: 3}
   m_PrefabInstance: {fileID: 5591636116958365056}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &710732369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 710732371}
-  - component: {fileID: 710732370}
-  m_Layer: 0
-  m_Name: AndeManager (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &710732370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710732369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 1597128952}
-  childCount: 0
-  m_speechBubble: {fileID: 0}
---- !u!4 &710732371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710732369}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1332562651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &713194451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10163,53 +9926,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041998812}
   m_CullTransparentMesh: 1
---- !u!1 &1053380744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1053380745}
-  - component: {fileID: 1053380746}
-  m_Layer: 0
-  m_Name: AndeManager (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1053380745
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053380744}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1332562651}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1053380746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053380744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 354595624}
-  childCount: 0
-  m_speechBubble: {fileID: 0}
 --- !u!1 &1066097971 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 268063188537343232, guid: f496a0a79badf234590539296e8f39cb, type: 3}
@@ -12200,58 +11916,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7643750605214968477, guid: a738b679942c448e49d357b7c6d1e7df, type: 3}
   m_PrefabInstance: {fileID: 617484752113943793}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1332562649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1332562651}
-  - component: {fileID: 1332562650}
-  m_Layer: 0
-  m_Name: AndeManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1332562650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332562649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985dc11ecc62fb94c85607edfbec234c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
-  ParentObject: {fileID: 642202640}
-  childCount: 0
-  m_speechBubble: {fileID: 353435767}
---- !u!4 &1332562651
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332562649}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 987.54846, y: 1840.9961, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 431949676}
-  - {fileID: 136833238}
-  - {fileID: 675118399}
-  - {fileID: 1053380745}
-  - {fileID: 710732371}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337874523
 GameObject:
   m_ObjectHideFlags: 0
@@ -13091,6 +12755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9af29966c34fec4c957b54a8b834703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OutfitData
+  tempbar: {fileID: 0}
   playerTotalPoints: 0
 --- !u!4 &1501311701
 Transform:
@@ -17987,7 +17652,7 @@ PrefabInstance:
     - target: {fileID: 6018891559677540184, guid: 9bebdb0945696d145a3d6da32617f702, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 136833237}
+      objectReference: {fileID: 0}
     - target: {fileID: 6018891559677540184, guid: 9bebdb0945696d145a3d6da32617f702, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -18148,7 +17813,7 @@ PrefabInstance:
     - target: {fileID: 2302569894540668207, guid: a161dad461ed6ff4a913e312bae790c2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 675118398}
+      objectReference: {fileID: 0}
     - target: {fileID: 2302569894540668207, guid: a161dad461ed6ff4a913e312bae790c2, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -19208,11 +18873,11 @@ PrefabInstance:
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1332562650}
+      objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
-      objectReference: {fileID: 353435767}
+      objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -20748,7 +20413,7 @@ PrefabInstance:
     - target: {fileID: 7265416070790436117, guid: a520e521740590f46b513a82ab6e4a47, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 431949675}
+      objectReference: {fileID: 0}
     - target: {fileID: 7265416070790436117, guid: a520e521740590f46b513a82ab6e4a47, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -20821,7 +20486,7 @@ PrefabInstance:
     - target: {fileID: 10366852721158242, guid: fdad6cbe2a3a7454e9dcaa19b94916da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 710732370}
+      objectReference: {fileID: 0}
     - target: {fileID: 10366852721158242, guid: fdad6cbe2a3a7454e9dcaa19b94916da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -21062,7 +20727,7 @@ PrefabInstance:
     - target: {fileID: 3885732241094202359, guid: 11bc5492c5a36c340b4df3137fa35a2c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 1053380746}
+      objectReference: {fileID: 0}
     - target: {fileID: 3885732241094202359, guid: 11bc5492c5a36c340b4df3137fa35a2c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
@@ -22856,5 +22521,3 @@ SceneRoots:
   - {fileID: 2135273215}
   - {fileID: 1638532765}
   - {fileID: 1501311701}
-  - {fileID: 1332562651}
-  - {fileID: 353435768}
