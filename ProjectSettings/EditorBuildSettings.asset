@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ChooseSocks.unity
     guid: c074fea53ab7f2b4fa881d8247926dc6
   - enabled: 1
-    path: Assets/Scenes/ChooseUnderwear.unity
+    path: Assets/Scenes/CU.unity
     guid: 76f05c8371c5f452f84d0deef8adb38b
   - enabled: 0
     path: Assets/Scenes/ChooseUnderwearTops.unity
@@ -65,5 +65,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ending1.unity
     guid: 10d57beef3d1845cfa2518a09a85e1fc
+  - enabled: 1
+    path: Assets/Scenes/ChooseUnderwear 1.unity
+    guid: 3dce5ed5e8a70ef4fa7736cfd4ce5b3d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
