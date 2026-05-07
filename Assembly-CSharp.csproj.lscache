@@ -57,17 +57,20 @@ Assets/Scrips/
  ClothingPanelData.cs
  ClothingSaveScriptbleObject.cs
  Continue.cs
- Continuebutton.cs
- DMI_API.cs
  DressUpManager.cs
+ Ending.cs
  Item.cs
  Json/
   SaveManager.cs
   SerializableHelper.cs
  OutfitData.cs
+ Quit.cs
+ scaneTalkManager.cs
  SceneTransition.cs
  ScoreManager.cs
  speechBubble.cs
+ StartButton.cs
+ TempBar.cs
 Assets/TextMesh Pro/Examples & Extras/Scripts/
  Benchmark01.cs
  Benchmark01_UGUI.cs
