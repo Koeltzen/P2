@@ -8,36 +8,42 @@ public class AndeTalk : MonoBehaviour
     public GameObject ParentObject;
 
     public int childCount;
-    
 
+    public speechBubble m_speechBubble;
+    
     public void ButtonClick()
     {
         Debug.Log("Bababooey");
-
-        StartCoroutine(waiterTest());
-
-
-
+        m_speechBubble.speechDone();
+        if(m_speechBubble.gameObject.activeInHierarchy)
+            StartCoroutine(waiterTest());
     }
 
 
 
     IEnumerator waiterTest()
     {
+
         ParentObject.transform.GetChild(currentChild).gameObject.SetActive(true);
         yield return new WaitForSeconds(4);
         ParentObject.transform.GetChild(currentChild).gameObject.SetActive(false);
         currentChild++;
-
-        if (ParentObject.transform.GetChild(currentChild))
+        Transform currentChildObject = null;
+        try
+        {
+            currentChildObject = ParentObject.transform.GetChild(currentChild);
+        }
+        catch (System.Exception)
+        {
+            
+        }
+        if (currentChildObject is not null)
             StartCoroutine(waiterTest());
-        
+        else
+        {
+            m_speechBubble.Hide();
+        }
     }
 
-    void IterateThroughChildren()
-    {
-        childCount = ParentObject.transform.childCount;
-
-
-    }
+    
 }

@@ -67,6 +67,7 @@ Assets/Scrips/
  OutfitData.cs
  SceneTransition.cs
  ScoreManager.cs
+ speechBubble.cs
 Assets/TextMesh Pro/Examples & Extras/Scripts/
  Benchmark01.cs
  Benchmark01_UGUI.cs

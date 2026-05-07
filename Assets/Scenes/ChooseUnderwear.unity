@@ -1657,6 +1657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 129771184}
   childCount: 0
+  m_speechBubble: {fileID: 0}
 --- !u!4 &136833238
 Transform:
   m_ObjectHideFlags: 0
@@ -4397,6 +4398,55 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 647142383947965600, guid: 55446f12583147f4bb5cc76f9242d9d9, type: 3}
   m_PrefabInstance: {fileID: 270478810}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &353435766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353435768}
+  - component: {fileID: 353435767}
+  m_Layer: 0
+  m_Name: speechManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &353435767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353435766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac20435c091a4c4c8659b8e2e1cdd33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::speechBubble
+  bubble:
+  - {fileID: 363725025}
+  timer: 0
+  interval: 2
+  boobleActive: 0
+--- !u!4 &353435768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353435766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 801.9565, y: 1826.5918, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &354595624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4542,6 +4592,42 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2496718368149564819, guid: 49e21581984638349aca20efd364f6da, type: 3}
   m_PrefabInstance: {fileID: 2031591680}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &363725025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 363725026}
+  m_Layer: 5
+  m_Name: speech
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &363725026
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363725025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1249173005}
+  m_Father: {fileID: 1688702670}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &368416127 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8082635011247382344, guid: 9bebdb0945696d145a3d6da32617f702, type: 3}
@@ -5506,6 +5592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 1142522986}
   childCount: 0
+  m_speechBubble: {fileID: 0}
 --- !u!4 &431949676
 Transform:
   m_ObjectHideFlags: 0
@@ -6982,6 +7069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 11851328}
   childCount: 0
+  m_speechBubble: {fileID: 0}
 --- !u!4 &675118399
 Transform:
   m_ObjectHideFlags: 0
@@ -7170,6 +7258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 1597128952}
   childCount: 0
+  m_speechBubble: {fileID: 0}
 --- !u!4 &710732371
 Transform:
   m_ObjectHideFlags: 0
@@ -10120,6 +10209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 354595624}
   childCount: 0
+  m_speechBubble: {fileID: 0}
 --- !u!1 &1066097971 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 268063188537343232, guid: f496a0a79badf234590539296e8f39cb, type: 3}
@@ -11673,7 +11763,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1249173004}
-  m_LocalRotation: {x: -0.003791045, y: 0.012209164, z: -0.29651725, w: 0.9549419}
+  m_LocalRotation: {x: -0.003791045, y: 0.012209165, z: -0.29651728, w: 0.954942}
   m_LocalPosition: {x: 0, y: 0, z: 7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11693,7 +11783,7 @@ RectTransform:
   - {fileID: 108263761}
   - {fileID: 394389416}
   - {fileID: 786108611}
-  m_Father: {fileID: 1688702670}
+  m_Father: {fileID: 363725026}
   m_LocalEulerAnglesHint: {x: 0, y: 1.465, z: -34.5}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12141,6 +12231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AndeTalk
   ParentObject: {fileID: 642202640}
   childCount: 0
+  m_speechBubble: {fileID: 353435767}
 --- !u!4 &1332562651
 Transform:
   m_ObjectHideFlags: 0
@@ -14480,7 +14571,7 @@ RectTransform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1249173005}
+  - {fileID: 363725026}
   m_Father: {fileID: 1793796213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 35.361}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -19088,7 +19179,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -19096,6 +19187,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
@@ -19115,11 +19210,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1332562650}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 353435767}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
@@ -19131,6 +19234,10 @@ PrefabInstance:
       value: ButtonClick
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: speechDone
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
       value: OutfitData, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -19139,11 +19246,27 @@ PrefabInstance:
       value: AndeTalk, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: speechBubble, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6013530360823406822, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8131379159235807478, guid: ab84139159d338a4b9ad51a8f471e2de, type: 3}
@@ -22734,3 +22857,4 @@ SceneRoots:
   - {fileID: 1638532765}
   - {fileID: 1501311701}
   - {fileID: 1332562651}
+  - {fileID: 353435768}
