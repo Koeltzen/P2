@@ -21057,9 +21057,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: ContinueButton (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1318193218267433143, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -21100,7 +21104,7 @@ PrefabInstance:
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
-      objectReference: {fileID: 87857013225308572}
+      objectReference: {fileID: 0}
     - target: {fileID: 3702376586729481872, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -21189,22 +21193,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6701213783495516466, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
---- !u!114 &87857013225308572 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6701213783495516466, guid: 30405a569a9d91444b4aa6d43cbbd487, type: 3}
-  m_PrefabInstance: {fileID: 87857013225308571}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2004809087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3ad92ccf952fd94fa885fcbc2251b0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IntroSceneTransition
 --- !u!1001 &617484752113943793
 PrefabInstance:
   m_ObjectHideFlags: 0
