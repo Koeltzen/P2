@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ad92ccf952fd94fa885fcbc2251b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IntroSceneTransition
-  scene: ChooseUnderwear
+  scene: CU
 --- !u!1 &1506262706
 GameObject:
   m_ObjectHideFlags: 0
