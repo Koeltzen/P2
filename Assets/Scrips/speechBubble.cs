@@ -14,14 +14,14 @@ public class speechBubble : MonoBehaviour
         if (timer <= interval)
         {
             boobleActive = true;
-            Debug.Log("bababooey");
+            Debug.Log("bubble active true!");
             for (int i = 0; i < 1; i++)
             {
                 Debug.Log("forloop");
                 if (i >= 0)
                 {
                     bubble[i].SetActive(true);
-                    Debug.Log("jep");
+                    Debug.Log("SetActive true!");
                 }
                 else  bubble[i].SetActive(false);
                 Debug.Log("else");
