@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AndeTalk : MonoBehaviour
 {
@@ -10,39 +11,47 @@ public class AndeTalk : MonoBehaviour
     public int childCount;
 
     public speechBubble m_speechBubble;
+
+    public CanvasGroup uiGroup;
     
     public void ButtonClick()
     {
         Debug.Log("Bababooey");
         m_speechBubble.speechDone();
         if(m_speechBubble.gameObject.activeInHierarchy)
+
+            Time.timeScale = 0f;
+
+            uiGroup.interactable = false;
+            uiGroup.blocksRaycasts = false;
+
             StartCoroutine(waiterTest());
     }
 
 
 
-    IEnumerator waiterTest()
+  IEnumerator waiterTest()
     {
+        while (currentChild < ParentObject.transform.childCount)
+        {
+            GameObject currentObject = ParentObject.transform.GetChild(currentChild).gameObject;
 
-        ParentObject.transform.GetChild(currentChild).gameObject.SetActive(true);
-        yield return new WaitForSeconds(4);
-        ParentObject.transform.GetChild(currentChild).gameObject.SetActive(false);
-        currentChild++;
-        Transform currentChildObject = null;
-        try
-        {
-            currentChildObject = ParentObject.transform.GetChild(currentChild);
+            currentObject.SetActive(true);
+
+            yield return new WaitForSecondsRealtime(4);
+
+            currentObject.SetActive(false);
+
+            currentChild++;
         }
-        catch (System.Exception)
-        {
-            
-        }
-        if (currentChildObject is not null)
-            StartCoroutine(waiterTest());
-        else
-        {
-            m_speechBubble.Hide();
-        }
+
+        Time.timeScale = 1f;
+
+        uiGroup.interactable = true;
+        uiGroup.blocksRaycasts = true;
+
+        m_speechBubble.Hide();
+        currentChild = 0;
     }
 
     
