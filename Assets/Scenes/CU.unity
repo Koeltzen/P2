@@ -7998,10 +7998,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 18.75
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -17142,7 +17142,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nu hvor vi kan se hvordan vejret bliver, s\xE5 skal vi v\xE6lge undert\xF8j!"
+  m_text: "Du skal nu igang med at v\xE6lge t\xF8j til i morgen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17233,7 +17233,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 7eceba5607ed387438d1707d3d8eccc8, type: 3}
+  m_Resource: {fileID: 8300000, guid: f17988d5ba404c345834f9f13a7cfee1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
